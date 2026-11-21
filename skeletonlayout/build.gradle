@@ -3,12 +3,12 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.vanniktech.maven.publish'
 
 android {
-    compileSdk 33
+    compileSdk 34
     namespace "com.faltenreich.skeletonlayout"
 
     defaultConfig {
         minSdk 14
-        targetSdk 33
+        targetSdk 34
         versionCode projectVersionCode
         versionName projectVersion
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
